@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>figma</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -30,7 +32,7 @@
             <div class="page1-main">
                 <div class="page1-contain">
                     <div class="all-write">
-                        <h1>Be The <span>Fastest</span> In Delivery Your <span>Food</span></h1>
+                        <h1>Be The <span>Fastest</span> In <br> Delivery Your <span>Food</span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint cumque officia qui beatae delectus perspiciatis, ipsum fuga, necessitatibus assumenda modi facilis? Quibusdam facere beatae similique provident, inventore at eligendi harum!</p>
                         <button class="button-18" role="button">Get Start</button>
                     </div>
@@ -70,11 +72,11 @@
         <div class="page3">
             <div class="page3-menu">
                 <div style="text-align: center;" class="menu-para">
-                    <p style="color: #f0660a;font-size: 1.3vw;">Our Menu</p>
+                    <p class="our" style="color: #f0660a;font-size: 1.3vw;">Our Menu</p>
                     <h1 style="font-weight: 500;">Our Populer Menu</h1>
                     <p style="color:gray;padding: 15px 0px;">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Id, harum.</p>
                 </div>
-                <div style="display: flex;justify-content: space-evenly;">
+                <div class="sergel">
                     <div class="product">
                         <img src="./picture/food1.png" alt="">
                         <div class="clip">
@@ -82,7 +84,7 @@
                             <p>Lorem, ipsum.</p>
                             <div class="price">
                                 <h3>$ 20.2</h3>
-                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-heart"></i>
                             </div>
                         </div>
                     </div>
@@ -93,7 +95,7 @@
                             <p>Lorem, ipsum.</p>
                             <div class="price">
                                 <h3>$ 20.2</h3>
-                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-heart"></i>
                             </div>
                         </div>
                     </div>
@@ -104,18 +106,20 @@
                             <p>Lorem, ipsum.</p>
                             <div class="price">
                                 <h3>$ 20.2</h3>
-                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-solid fa-heart"></i>
                             </div>
                         </div>
                     </div>
                     <div class="product">
-                        <img src="./picture/food3.png" alt="">
-                        <div class="clip">
-                            <h1>Spaghetti</h1>
-                            <p>Lorem, ipsum.</p>
-                            <div class="price">
-                                <h3>$ 20.2</h3>
-                                <i class="fa-regular fa-heart"></i>
+                        <img style="margin-top: 9px;" src="./picture/food3.png" alt="">
+                        <div>
+                            <div class="clip">
+                                <h1>Spaghetti</h1>
+                                <p>Lorem, ipsum.</p>
+                                <div class="price">
+                                    <h3>$ 20.2</h3>
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -145,10 +149,10 @@
                        <h1>What Our Customers Say <br> About Us</h1>
                     </div>
                     <div style="display: flex; gap:20px">
-                        <div style="height: 210px;width: 450px;background-color: gainsboro;padding: 20px;">
+                        <div class="narura" style="height: 210px;width: 450px;background-color: gainsboro;padding: 20px;">
                             <div style="display: flex;align-items: center; gap: 10px;">
                                 <img src="./picture/unsplash_Xbe20Z_DlDs.png" alt="">
-                                <div>
+                                <div class="star">
                                 <p>Naura Silvana</p>
                                 <i class="fa-solid fa-star"></i>
                                 <i class="fa-solid fa-star"></i>
@@ -159,21 +163,19 @@
                             </div>
                             <p style="padding-top: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magnam odio fugit consequatur doloribus! Veniam magni doloribus</p>
                         </div>
-                        <div style="height: 210px;width: 400px;background-color: gainsboro;">
-                            <div style="height: 210px;width: 400px;background-color: gainsboro;padding: 20px;">
-                                <div style="display: flex;align-items: center; gap: 10px;">
-                                    <img src="./picture/unsplash_Xbe20Z_DlDs.png" alt="">
-                                    <div>
-                                    <p>Naura Silvana</p>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    </div>
+                        <div class="narura" style="height: 210px;width: 400px;background-color: gainsboro;padding: 20px;">
+                            <div style="display: flex;align-items: center; gap: 10px;">
+                                <img src="./picture/unsplash_Xbe20Z_DlDs.png" alt="">
+                                <div class="star">
+                                <p>Naura Silvana</p>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
                                 </div>
-                                <p style="padding-top: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magnam odio fugit consequatur doloribus! Veniam magni doloribus</p>
                             </div>
+                            <p style="padding-top: 20px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus magnam odio fugit consequatur doloribus! Veniam magni doloribus</p>
                         </div>
                     </div>
                 </div>   
@@ -215,6 +217,9 @@
                     <a href="">+880172345****</a>
                     <a href="">food@gmail.com</a>
                 </div>
+            </div>
+            <div class="copyright">
+                <p>© 2022 Let’sFood. ALL RIGHT RESERVED.</p>
             </div>
         </div>
     </div>

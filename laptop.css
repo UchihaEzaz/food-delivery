@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) and (min-width:577px) {
+    .nav-con{
+        display: none;
+    }
+    .menu{
+        opacity: 1;
+    }
+    .hero-con p{
+        font-size: 2vw;
+    }
+    .hero2-cart{
+        justify-content: space-between;
+    }
+    .nav{
+        padding: 0 70px;
+    }
+    .page1{
+        height: auto;
+        width: auto;
+    }
+    .photo{
+        height: auto;
+        width: 370px;
+    }
+    .page1-contain{
+        position: relative;
+        left: 2%;
+        top:-10%;
+    }
+    .page1-contain p{
+        font-size: 1.9vw;
+    }
+    .page1-contain h1{
+        font-size: 4.4vw;
+    }
+    .page3{
+        height: auto;
+    }
+    .our{
+        font-size: 2vw;
+    }
+    .sergel{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .product img{
+        position: relative;
+        left: 50px;
+    }
+    .page4{
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .feedback{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .narura{
+        height: 200px;
+        width: 40%;
+    }
+}

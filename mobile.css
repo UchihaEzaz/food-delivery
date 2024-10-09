@@ -1,0 +1,71 @@
+@media (max-width:576px) {
+    .nav-con{
+        display: none;
+    }
+    .menu{
+        opacity: 1;
+    }
+    .page1{
+        height: auto;
+    }
+    .page1-main{
+        height: 300px;
+        width: 500px;
+        display: flex;
+        justify-content: start;
+    }
+    .page1-contain{
+        height: 100%;
+        width: 100%;
+    }
+    .all-write{
+        height: 100%;
+        width: 100%;
+    }
+    .all-write h1{
+        font-size: 6vw;
+    }
+    .all-write p{
+        padding: 30px 0;
+        font-size: 3.5vw;
+    }
+    .page1-photo{
+        display: none;
+    }
+    .page1-photo img{
+        display: none;
+    }
+    .page2{
+        height: 185vh;
+    }
+    .hero2-cart{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .page3{
+        height: auto;
+    }
+    .sergel{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .page4{
+        height: 150vh;
+        display: flex;
+        justify-content: start;
+    }
+    .narura{
+        height: 200px;
+        width: 50%;
+    }
+    .feedback{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -190px;
+    }
+    .page6{
+        height: 90vh;
+    }
+
+}
